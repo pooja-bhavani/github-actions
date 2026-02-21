@@ -8,5 +8,7 @@ Github Action is a powerful and flexible automation platform that allows develop
 
 * Managed Infrastructure - Github manages the infrastructure for you which includes setting up servers, scaling resources and managing environments for the workflows.
 * YAML-based configuration - Your task is to write workflow configurations in yaml file.
-* Automatic execution - Github actions handles rest of the task like executing the task within Virtual Machine, caching necessary dependencies and providing reports on outcomes. 
+* Automatic execution - Github actions handles rest of the task like executing the task within Virtual Machine, caching necessary dependencies.
+* Reporting - Provides reports on outcomes such as logs, artifacts, and job status.
+
 
