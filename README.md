@@ -58,6 +58,7 @@ Used to run workflows at specific times.
 
 <img width="347" height="103" alt="schedule" src="https://github.com/user-attachments/assets/9edb4854-eb59-4344-a9f3-57801f13305c" />
 
+<img width="1982" height="864" alt="image" src="https://github.com/user-attachments/assets/f151ef72-7493-4351-a5e5-53ea0a2cb051" />
 
 
 ---
