@@ -106,6 +106,9 @@ Deploy should run only on main. If any changes are make in feature or any other 
 
 ## Secure AWS Deployment using OIDC
 
+<img width="926" height="442" alt="image" src="https://github.com/user-attachments/assets/345addd6-7e98-44d6-87c7-7b1019cbaaff" />
+
+
 OpenID Connect (OIDC) is a secure identity protocol that allows GitHub Actions to authenticate with AWS without needing to store long-term access keys (like the AWS secret key) in your repository.
 
 **How it works:**
