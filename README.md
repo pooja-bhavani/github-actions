@@ -1,5 +1,7 @@
 # Automation your workflow with GitHub Actions
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/54082e71-b603-46e3-b650-bd7e5245c68e" />
+
 ## Overview 
 
 Github Actions is a powerful and flexible automation platform that allows developers to automate tasks directly from their repositories. This automation helps you to streamline development, reduce manual errors and increase the efficiency of your software development workflow. With GitHub Actions, you can easily create continuous integration and continuous deployment (CI/CD) pipelines to build, test, and deploy code on every pull request and deploy merged pull request to production. Beyond CI/CD, it can automate repository actions like posting comments, applying labels, or assign contributors and also add reviewers (to assess and approve changes) by listening to events such as pushes, pull requests, and issues
