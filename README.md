@@ -19,16 +19,16 @@ Github Actions is a powerful and flexible automation platform that allows develo
 ## Core Concepts of GitHub Actions
 
 *   **Workflows**          
-It is an automated process capable of executing one or more jobs. Workflow is defined using YAML files located in the `.github/workflows` directory of your repository.
+It is an automated process capable of executing one or more jobs. Workflow is defined using YAML files located in the .github/workflows directory of your repository.
 
 *   **Jobs**      
-Jobs are defined within a workflow, a job consists of a series of individual steps executed on a specific environment. Jobs run in parallel by default.
+Jobs are defined within a workflow; a job consists of a series of individual steps executed in a specific environment. Jobs run in parallel by default.
 
 *   **Steps**      
-Steps are individual tasks executed sequentially within a job. For example, a step might clone the repository, Install dependencies or run tests.
+Steps are individual tasks executed sequentially within a job. For example, a step might clone the repository, install dependencies or run tests.
 
 *   **Runners**        
-Runner is a virtual machine which is responsible for executing your workflows when triggered. GitHub automatically provisions runners based on runs-on configurations specified at job-level (For example:runs-on: ubuntu-latest) 
+Runner is a virtual machine which is responsible for executing your workflows when triggered. GitHub automatically provisions runners based on runs-on configurations specified at the job level (For example:runs-on: ubuntu-latest)
 
 ---
 
