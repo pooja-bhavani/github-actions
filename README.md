@@ -82,7 +82,7 @@ screenshots to be added
  
 ## Context
 
-**What is context?**
+**What is context?**               
 Context is a set of pre-defined objects and variables containing information about the workflow run. It can contain info about environments, events, variables, runtime env, secrets, jobs, steps etc. If you want to know name of the runner you can use runner.name and to know Operating System use runner.os. 
 
 
