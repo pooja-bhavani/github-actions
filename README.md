@@ -80,8 +80,10 @@ screenshots to be added
 
 3. Max-parallel - Allows you to control the maximum number of jobs that will run simultaneously. Using matrix job strategy you can define the number here if you write 2 it will execute only 2 jobs once this is completed it will start executing the next set of jobs.
  
+## Context
 
-
+**What is context?**
+Context is a set of pre-defined objects and variables containing information about the workflow run. It can contain info about environments, events, variables, runtime env, secrets, jobs, steps etc. If you want to know name of the runner you can use runner.name and to know Operating System use runner.os. 
 
 
 
