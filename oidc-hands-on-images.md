@@ -6,4 +6,4 @@
 
 **Docs link:** https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-aws
 
-<img width="1470" height="956" alt="Add identity provider" src="https://github.com/user-attachments/assets/918a46c5-5eae-4363-a2ab-8909043b1b7e" />
+<img width="2919" height="1004" alt="image" src="https://github.com/user-attachments/assets/e65a8d8a-ffe3-4188-889e-1f82b2efa77c" />
