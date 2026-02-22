@@ -37,5 +37,5 @@ Steps are individual tasks executed sequentially within a job. For example, a st
 
 ---
 
-*   **Runners**
-Runner is a virtual machine which is responsible for executing your workflows when triggered.GitHub automatically provisions runners based on runs-on (eg:runs-on: ubuntu-latest)configurations specified at job-level
+*   **Runners**        
+Runner is a virtual machine which is responsible for executing your workflows when triggered. GitHub automatically provisions runners based on runs-on (eg:runs-on: ubuntu-latest)configurations specified at job-level
