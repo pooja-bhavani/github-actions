@@ -16,14 +16,6 @@ Github Actions is a powerful and flexible automation platform that allows develo
   * Providing reports on outcomes such as logs, artifacts, and job status.
 ---
 
-## Event Triggers
-Workflows can be triggered by various events:
-*   **Push Events:** Runs your workflow when you push a commit or tag, or when you create a repository from a template. Event filters can be used to run jobs only on specific branches (e.g., only the `main` branch) or ignore certain branches.
-*   **Schedule Events:** Used for executing workflows on a specific schedule using cron jobs.
-*   **Workflow Dispatch Events:** Used when you want to manually trigger and run a workflow.
-
----
-
 ## Core Concepts of GitHub Actions
 
 *   **Workflows**          
@@ -54,6 +46,21 @@ Runner is a virtual machine which is responsible for executing your workflows wh
 * These runners will run on your own infrastructure such as your own servers, VM’s, or cloud. You will have full control over the environment but you’re responsible for setting up and maintaining these runners.
 * You can run multiple jobs on same machine
 * You can install any required software and configure runner according to your requirements.
+
+## Event Triggers
+Workflows can be triggered by various events:
+*   **Push Events:** Runs your workflow when you push a commit or tag, or when you create a repository from a template. Event filters can be used to run jobs only on specific branches (e.g., only the `main` branch) or ignore certain branches.
+*   **Schedule Events:** Used for executing workflows on a specific schedule using cron jobs.
+*   **Workflow Dispatch Events:** Used when you want to manually trigger and run a workflow.
+
+## Schedule Events (Cron Jobs)
+Used to run workflows at specific times.
+
+<img width="347" height="103" alt="schedule" src="https://github.com/user-attachments/assets/9edb4854-eb59-4344-a9f3-57801f13305c" />
+
+
+
+---
 
 ## Advanced Configuration
 ### Matrix Strategy
