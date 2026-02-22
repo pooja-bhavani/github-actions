@@ -55,7 +55,8 @@ Runner is a virtual machine which is responsible for executing your workflows wh
 * You can run multiple jobs on same machine
 * You can install any required software and configure runner according to your requirements.
 
- ## Event Triggers
+## Advanced Configuration
+### Matrix Strategy
 
 
 
