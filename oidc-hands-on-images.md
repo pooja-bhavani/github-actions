@@ -30,3 +30,6 @@ In secrets add ARN from roles
 
 <img width="2893" height="1446" alt="image" src="https://github.com/user-attachments/assets/70c74c3c-9f9b-4049-a7b6-0320ac907659" />
 
+<img width="2918" height="825" alt="image" src="https://github.com/user-attachments/assets/cbe59723-dd04-4367-9f4a-c4573479b0d7" />
+
+<img width="2933" height="1430" alt="image" src="https://github.com/user-attachments/assets/ee8f1aea-5632-4ccf-846e-ba4af11921df" />
