@@ -17,6 +17,7 @@ Github Actions is a powerful and flexible automation platform that allows develo
 ---
 
 ## Core Concepts of GitHub Actions
+<img width="462" height="176" alt="image" src="https://github.com/user-attachments/assets/ae6c93f4-95cb-4f16-bc7a-ecb274a7fa4d" />
 
 *   **Workflows**          
 It is an automated process capable of executing one or more jobs. Workflow is defined using YAML files located in the .github/workflows directory of your repository.
