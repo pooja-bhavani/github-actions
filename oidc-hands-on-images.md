@@ -20,6 +20,8 @@ In GitHub go to settings –> secrets and variables –> actions –> add new re
 
 <img width="2890" height="1512" alt="image" src="https://github.com/user-attachments/assets/721bf80a-c64f-42f7-909d-fce1934ce281" />
 
+In secrets add ARN from roles
+
 <img width="2909" height="1411" alt="image" src="https://github.com/user-attachments/assets/d867cb61-d944-4a59-8c02-f2379959f121" />
 
 <img width="2856" height="1489" alt="image" src="https://github.com/user-attachments/assets/d3e8988b-e6dd-491f-bfd7-32755752b868" />
