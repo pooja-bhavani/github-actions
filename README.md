@@ -17,7 +17,6 @@ Github Actions is a powerful and flexible automation platform that allows develo
 ---
 
 ## Core Concepts of GitHub Actions
-<img width="462" height="176" alt="image" src="https://github.com/user-attachments/assets/ae6c93f4-95cb-4f16-bc7a-ecb274a7fa4d" />
 
 *   **Workflows**          
 It is an automated process capable of executing one or more jobs. Workflow is defined using YAML files located in the .github/workflows directory of your repository.
@@ -79,19 +78,19 @@ screenshots to be added
 
 2. **Fail-Fast** - By default, if one job in a matrix fails, all in-progress jobs are automatically cancelled. Setting `fail-fast: false` disables this default behavior.
 
-3. Max-parallel - Allows you to control the maximum number of jobs that will run simultaneously. Using matrix job strategy you can define the number here if you write 2 it will execute only 2 jobs once this is completed it will start executing the next set of jobs.
+3. Max-parallel - Allows you to control the maximum number of jobs that will run simultaneously. Using matrix job strategy you can define the number here if you write 2 it will execute only 2 jobs. Once this is completed it will start executing the next set of jobs.
 
 ---
 ## Context
 
 **What is context?**               
-Context is a set of pre-defined objects and variables containing information about the workflow run. It can contain info about environments, events, variables, runtime env, secrets, jobs, steps etc. If you want to know name of the runner you can use runner.name and to know Operating System use runner.os. 
+Context is a set of pre-defined objects and variables containing information about the workflow run. It can contain info about environments, events, variables, runtime env, secrets, jobs, steps etc. If you want to know the name of the runner, you can use runner.name and to know the operating system use runner.os. 
 
 ---
 
 ## Expressions
 
-Expressions are used to dynamically configure workflows to execute jobs and steps based on conditional logic. if condition allows you to control wether a particular step or a job should proceed based on a defined condition. For example, the `if` condition can determine whether a specific step or job should execute (e.g., only deploying if the branch is `main`).
+Expressions are used to dynamically configure workflows to execute jobs and steps based on conditional logic. For example, the `if` condition can determine whether a specific step or job should execute (e.g., only deploying if the branch is `main`).
 
 Scenario: Deploy Only on Main Branch
 
@@ -101,7 +100,7 @@ Job 1 → Build Docker
 
 Job 2 → Deploy
 
-Deploy should run only on main. If any changes are make in feature or any other branches you don’t want to execute the deploy job.
+Deploy should run only on main. If any changes are made in a feature or any other branches, you don’t want to execute the deploy job.
 
 ---
 
@@ -118,7 +117,7 @@ OpenID Connect (OIDC) is a secure identity protocol that allows GitHub Actions t
 2. The token (containing claims like the repository name and branch) is sent to AWS Secure Token Service (STS).
 3. STS validates the token against the IAM role's trust policy.
 4. Upon validation, STS issues temporary, limited-access AWS credentials.
-5. The workflow uses these temporary credentials to access authorized AWS services (like S3 or ECR etc).
+5. The workflow uses these temporary credentials to access authorized AWS services (like S3 or ECR, etc.).
 6. The credentials will automatically expire as soon as the job ends.
 
 
