@@ -49,6 +49,13 @@ Runner is a virtual machine which is responsible for executing your workflows wh
 * Linux and Windows runners are hosted on the Microsoft Azure platform, while macOS runners are hosted in GitHub's own macOS cloud.
 * No need to manage infrastructure. But you cannot install system-level software or customize the runners beyond selecting the OS type.
 
+### 2. Self-Hosted Runners
+
+* These runners will run on your own infrastructure such as your own servers, VM’s, or cloud. You will have full control over the environment but you’re responsible for setting up and maintaining these runners.
+* You can run multiple jobs on same machine
+* You can install any required software and configure runner according to your requirements.
+
+ ## Event Triggers
 
 
 
