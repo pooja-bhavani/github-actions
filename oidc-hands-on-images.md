@@ -24,5 +24,5 @@ In GitHub go to settings –> secrets and variables –> actions –> add new re
 
 <img width="2856" height="1489" alt="image" src="https://github.com/user-attachments/assets/d3e8988b-e6dd-491f-bfd7-32755752b868" />
 
-<img width="2902" height="1459" alt="image" src="https://github.com/user-attachments/assets/236d2157-5632-4483-b8f8-15051b6b19ac" />
+<img width="2893" height="1446" alt="image" src="https://github.com/user-attachments/assets/70c74c3c-9f9b-4049-a7b6-0320ac907659" />
 
