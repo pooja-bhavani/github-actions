@@ -23,4 +23,9 @@ Workflows can be triggered by various events:
 ## Core Concepts of GitHub Actions
 
 *   **Workflows**          
-It is an automated process capable of executing one or more jobs. Workflow is defined using YAML files located in the `.github/workflows` directory of your repository
+It is an automated process capable of executing one or more jobs. Workflow is defined using YAML files located in the `.github/workflows` directory of your repository.
+
+*   **Jobs:**      
+Jobs are defined within a workflow, a job consists of a series of individual steps executed on a specific environment. Jobs run in parallel by default.
+
+
