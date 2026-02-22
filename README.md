@@ -14,3 +14,8 @@ Github Actions is a powerful and flexible automation platform that allows develo
   * Providing reports on outcomes such as logs, artifacts, and job status.
 
 
+## Event Triggers
+Workflows can be triggered by various events:
+*   **Push Events:** Runs your workflow when you push a commit or tag, or when you create a repository from a template. Event filters can be used to run jobs only on specific branches (e.g., only the `main` branch) or ignore certain branches.
+*   **Schedule Events:** Used for executing workflows on a specific schedule using cron jobs.
+*   **Workflow Dispatch Events:** Used when you want to manually trigger and run a workflow.
