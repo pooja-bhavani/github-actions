@@ -79,14 +79,22 @@ screenshots to be added
 2. **Fail-Fast** - By default, if one job in a matrix fails, all in-progress jobs are automatically cancelled. Setting `fail-fast: false` disables this default behavior.
 
 3. Max-parallel - Allows you to control the maximum number of jobs that will run simultaneously. Using matrix job strategy you can define the number here if you write 2 it will execute only 2 jobs once this is completed it will start executing the next set of jobs.
- 
+
+---
 ## Context
 
 **What is context?**               
 Context is a set of pre-defined objects and variables containing information about the workflow run. It can contain info about environments, events, variables, runtime env, secrets, jobs, steps etc. If you want to know name of the runner you can use runner.name and to know Operating System use runner.os. 
 
+---
 
+## Expressions
 
+Expressions are used to dynamically configure workflows to execute jobs and steps based on conditional logic. if condition allows you to control wether a particular step or a job should proceed based on a defined condition. For example, the `if` condition can determine whether a specific step or job should execute (e.g., only deploying if the branch is `main`).
+
+Scenario
+
+Suppose you have a 2 jobs 1st docker job and 2nd deploy job. You only want to run the deployment job when it is in the main branch. If any changes are make in feature or any other branches you don’t want to execute the deploy job.
 
 
 
