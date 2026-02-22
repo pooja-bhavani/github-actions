@@ -10,4 +10,16 @@
 
 <img width="2940" height="1107" alt="Pasted Graphic 4" src="https://github.com/user-attachments/assets/18607ccf-6995-4543-9a25-1b6d20932707" />
 
-<img width="1470" height="956" alt="Screenshot 2026-02-20 at 2 21 50 PM" src="https://github.com/user-attachments/assets/c042c946-9048-4b8f-95a8-7a15b775482b" />
+<img width="2904" height="1353" alt="image" src="https://github.com/user-attachments/assets/2bb1c85f-cd1d-4d28-9b2f-da1505a08560" />
+
+Select which AWS service you want to give access to GitHub
+
+<img width="2892" height="1548" alt="Pasted Graphic 5" src="https://github.com/user-attachments/assets/231e1750-4a3e-45f0-bbb9-a9e33babcf35" />
+
+In GitHub go to settings –> secrets and variables –> actions –> add new repository secret
+
+<img width="2890" height="1512" alt="image" src="https://github.com/user-attachments/assets/721bf80a-c64f-42f7-909d-fce1934ce281" />
+
+<img width="2909" height="1411" alt="image" src="https://github.com/user-attachments/assets/d867cb61-d944-4a59-8c02-f2379959f121" />
+
+<img width="2856" height="1489" alt="image" src="https://github.com/user-attachments/assets/d3e8988b-e6dd-491f-bfd7-32755752b868" />
