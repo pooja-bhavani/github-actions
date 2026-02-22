@@ -7,3 +7,7 @@
 **Docs link:** https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-aws
 
 <img width="2919" height="1004" alt="image" src="https://github.com/user-attachments/assets/e65a8d8a-ffe3-4188-889e-1f82b2efa77c" />
+
+<img width="2940" height="1107" alt="Pasted Graphic 4" src="https://github.com/user-attachments/assets/18607ccf-6995-4543-9a25-1b6d20932707" />
+
+<img width="1470" height="956" alt="Screenshot 2026-02-20 at 2 21 50 PM" src="https://github.com/user-attachments/assets/c042c946-9048-4b8f-95a8-7a15b775482b" />
