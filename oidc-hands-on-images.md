@@ -16,7 +16,7 @@ Select which AWS service you want to give access to GitHub
 
 <img width="2892" height="1548" alt="Pasted Graphic 5" src="https://github.com/user-attachments/assets/231e1750-4a3e-45f0-bbb9-a9e33babcf35" />
 
-<img width="2906" height="1496" alt="image" src="https://github.com/user-attachments/assets/a35ef080-750e-412a-9817-6cb4a11abe49" />
+<img width="2897" height="1506" alt="image" src="https://github.com/user-attachments/assets/a33e8b52-d269-407b-b0a1-58a5c4951ff6" />
 
 In GitHub go to settings –> secrets and variables –> actions –> add new repository secret
 
