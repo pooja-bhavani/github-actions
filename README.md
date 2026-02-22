@@ -122,7 +122,6 @@ OpenID Connect (OIDC) is a secure identity protocol that allows GitHub Actions t
 5. The workflow uses these temporary credentials to access authorized AWS services (like S3 or ECR, etc.).
 6. The credentials will automatically expire as soon as the job ends.
 
-[![GitHub AWS OIDC](https://github.com/pooja-bhavani/github-actions/actions/workflows/oidc-connect.yml/badge.svg)](https://github.com/pooja-bhavani/github-actions/actions/workflows/oidc-connect.yml)
 
 
 
