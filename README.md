@@ -28,5 +28,5 @@ It is an automated process capable of executing one or more jobs. Workflow is de
 *   **Jobs**      
 Jobs are defined within a workflow, a job consists of a series of individual steps executed on a specific environment. Jobs run in parallel by default.
 
-*   **Steps**
+*   **Steps**      
 Steps are individual tasks executed sequentially within a job. For example, a step might clone the repository, Install dependencies or run tests.
