@@ -92,11 +92,30 @@ Context is a set of pre-defined objects and variables containing information abo
 
 Expressions are used to dynamically configure workflows to execute jobs and steps based on conditional logic. if condition allows you to control wether a particular step or a job should proceed based on a defined condition. For example, the `if` condition can determine whether a specific step or job should execute (e.g., only deploying if the branch is `main`).
 
-Scenario
+Scenario: Deploy Only on Main Branch
 
-Suppose you have a 2 jobs 1st docker job and 2nd deploy job. You only want to run the deployment job when it is in the main branch. If any changes are make in feature or any other branches you don’t want to execute the deploy job.
+You have:
 
+Job 1 → Build Docker
 
+Job 2 → Deploy
+
+Deploy should run only on main. If any changes are make in feature or any other branches you don’t want to execute the deploy job.
+
+---
+
+## Secure AWS Deployment using OIDC
+
+OpenID Connect (OIDC) is a secure identity protocol that allows GitHub Actions to authenticate with AWS without needing to store long-term access keys (like the AWS secret key) in your repository.
+
+**How it works:**
+
+1. The GitHub Actions workflow requests an OIDC token from GitHub's OIDC provider.
+2. The token (containing claims like the repository name and branch) is sent to AWS Secure Token Service (STS).
+3. STS validates the token against the IAM role's trust policy.
+4. Upon validation, STS issues temporary, limited-access AWS credentials.
+5. The workflow uses these temporary credentials to access authorized AWS services (like S3 or ECR etc).
+6. The credentials will automatically expire as soon as the job ends.
 
 
 
