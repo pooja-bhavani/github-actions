@@ -57,7 +57,7 @@ Workflows can be triggered by various events:
 
 <img width="2901" height="474" alt="Pasted Graphic 4" src="https://github.com/user-attachments/assets/98d61b0e-e888-462f-a07e-9cfe2c1681b7" />
 
-
+[![GitHub AWS OIDC](https://github.com/pooja-bhavani/prometheus/actions/workflows/testing.yml/badge.svg)](https://github.com/pooja-bhavani/prometheus/actions/workflows/testing.yml)
 ---
 
 ## Advanced Configuration
