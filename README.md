@@ -35,7 +35,8 @@ Jobs are defined within a workflow, a job consists of a series of individual ste
 *   **Steps**      
 Steps are individual tasks executed sequentially within a job. For example, a step might clone the repository, Install dependencies or run tests.
 
----
-
 *   **Runners**        
 Runner is a virtual machine which is responsible for executing your workflows when triggered. GitHub automatically provisions runners based on runs-on (eg:runs-on: ubuntu-latest)configurations specified at job-level
+
+---
+
