@@ -19,3 +19,8 @@ Workflows can be triggered by various events:
 *   **Push Events:** Runs your workflow when you push a commit or tag, or when you create a repository from a template. Event filters can be used to run jobs only on specific branches (e.g., only the `main` branch) or ignore certain branches.
 *   **Schedule Events:** Used for executing workflows on a specific schedule using cron jobs.
 *   **Workflow Dispatch Events:** Used when you want to manually trigger and run a workflow.
+
+## Core Concepts of GitHub Actions
+
+*   **Workflows:**
+It is an automated process capable of executing one or more jobs. Workflow is defined using YAML files located in the `.github/workflows` directory of your repository
