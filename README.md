@@ -53,19 +53,21 @@ Workflows can be triggered by various events:
 *   **Schedule Events:** Used for executing workflows on a specific schedule using cron jobs.
 *   **Workflow Dispatch Events:** Used when you want to manually trigger and run a workflow.
 
-**Workflow Dispatch Events**
-
-<img width="2901" height="474" alt="Pasted Graphic 4" src="https://github.com/user-attachments/assets/98d61b0e-e888-462f-a07e-9cfe2c1681b7" />
-
-[![GitHub AWS OIDC](https://github.com/pooja-bhavani/prometheus/actions/workflows/testing.yml/badge.svg)](https://github.com/pooja-bhavani/prometheus/actions/workflows/testing.yml)
 ---
 
 ## Advanced Configuration
 ### Matrix Strategy
 
+**Scenario**
 
+You want to run the same job on multiple OS:
+* Ubuntu 
+* Windows
+* macOS
 
+But you want to build or test app on multiple OS you can define multiple jobs for each OS. But this would become more complicated because of repetitive lines or steps. 
 
+Solution: To avoid repetitive lines or steps we make use of Matrix Strategy. This allows you to use variables in a single job definition which automatically creates multiple jobs that run in parallel. This is highly useful for testing an application across multiple operating systems simultaneously without writing repetitive code.
 
 
 
