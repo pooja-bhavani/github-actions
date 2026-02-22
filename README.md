@@ -34,6 +34,8 @@ Runner is a virtual machine which is responsible for executing your workflows wh
 
 ## Types of Runners
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/adb22caf-0969-4ed4-92a9-7efa5183048b" />
+
 ### 1. GitHub-Hosted Runners
 
 * These runners are hosted and maintained by Github. GitHub provides set Virtual Machines with various configurations including different Operating Systems & software environments. 
