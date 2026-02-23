@@ -1,4 +1,4 @@
-Repository → Settings → Pages
+**Repository → Settings → Pages**
 
 Source, select GitHub Actions and Click Save.
 
