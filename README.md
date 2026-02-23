@@ -72,17 +72,20 @@ Runner is a virtual machine which is responsible for executing your workflows wh
 
 ## Event Triggers
 Workflows can be triggered by various events:
-###   **Push Events:** Runs your workflow when you push a commit or tag, or when you create a repository from a template. Event filters can be used to run jobs only on specific branches (e.g., only the `main` branch) or ignore certain branches.
+###   **Push Events** 
+Runs your workflow when you push a commit or tag, or when you create a repository from a template. Event filters can be used to run jobs only on specific branches (e.g., only the `main` branch) or ignore certain branches.
 
 <img width="1624" height="139" alt="image" src="https://github.com/user-attachments/assets/a46ffeba-1882-45b7-9815-e34b170c72ec" />
 
 
-###   **Schedule Events:** Used for executing workflows on a specific schedule using cron jobs.
+###   **Schedule Events** 
+Used for executing workflows on a specific schedule using cron jobs.
 
 <img width="2716" height="725" alt="image" src="https://github.com/user-attachments/assets/6acaa1bf-4366-429d-9c00-1342c3123f7f" />
 
 
- ###  **Workflow Dispatch Events:** Used when you want to manually trigger and run a workflow.
+ ###  **Workflow Dispatch Events** 
+ Used when you want to manually trigger and run a workflow.
 
 <img width="1081" height="155" alt="image" src="https://github.com/user-attachments/assets/eda11013-2e0b-445e-88d1-2d0f1be40825" />
 
