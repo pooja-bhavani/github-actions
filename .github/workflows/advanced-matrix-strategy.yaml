@@ -2,7 +2,7 @@ name: Matrix Build Demo
 
 on:
   push:
-  
+
 jobs:
   matrix-test:
     name: Test on ${{ matrix.os }} with Python ${{ matrix.python }}
@@ -14,15 +14,15 @@ jobs:
       matrix:
         os: [ubuntu-latest, ubuntu-24.04, windows-latest]
         python: ["3.9", "3.10", "3.11"]
-       
+
         exclude:
           - os: windows-latest
             python: "3.11"
-        
+
         include:
           - os: ubuntu-24.04
             python: "3.12"
-            
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -35,4 +35,5 @@ jobs:
       - name: Print environment info
         run: |
           echo "Running on $RUNNER_OS"
-          python --version        
+          echo "Experimental: ${{ matrix.experimental || false }}"
+          python --version
