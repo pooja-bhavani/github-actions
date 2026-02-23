@@ -18,13 +18,14 @@ Github Actions is a powerful and flexible automation platform that allows develo
 
 ## Core Concepts of GitHub Actions
 
-*   **Workflows**          
+###   **Workflows**          
 It is an automated process capable of executing one or more jobs. Workflow is defined using YAML files located in the .github/workflows directory of your repository.
 
 <img width="2564" height="466" alt="image" src="https://github.com/user-attachments/assets/551c23e1-b416-42b0-a570-71d39c5f6d4b" />
 
+-- 
 
-*   **Jobs**      
+###   **Jobs**      
 Jobs are defined within a workflow; a job consists of a series of individual steps executed in a specific environment. You can define multiple jobs which run in parallel by default.
 
 <img width="1624" height="127" alt="image" src="https://github.com/user-attachments/assets/f2e1d295-7e57-4381-9d6c-f1f613b47872" />
@@ -33,7 +34,7 @@ The job fails because setps are not yet defined
 <img width="831" height="126" alt="image" src="https://github.com/user-attachments/assets/8afd5410-4727-46ff-87f0-dcea2010105e" />
 
 
-*   **Steps**      
+###   **Steps**      
 Steps are individual tasks executed sequentially within a job. For example, a step might clone the repository, install dependencies or run tests.
 
 <img width="1624" height="108" alt="image" src="https://github.com/user-attachments/assets/aaa052d0-2156-4f13-bf29-1cdb40d1861a" />
