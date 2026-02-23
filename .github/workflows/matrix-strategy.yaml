@@ -1,6 +1,7 @@
 name: Matrix Build Demo
 
 on:
+  push:
   workflow_dispatch:
 jobs:
   matrix-test:
@@ -9,7 +10,7 @@ jobs:
 
     strategy:
       matrix:
-        os: [ubuntu-latest, Ubuntu-24.04, windows-latest]
+        os: [ubuntu-latest, ubuntu-24.04, windows-latest]
         python: ["3.9", "3.10", "3.11"]
     steps:
       - name: Checkout code
