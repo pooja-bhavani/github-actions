@@ -1,0 +1,43 @@
+name: Simple CI
+
+on:
+  push:
+  
+# A workflow contains one or more jobs
+jobs:
+  # Job 1: build HTML
+  build-html:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: List files
+        run: ls -la  
+      
+      - name: Verify HTML file exists
+        run: |
+          if [ -f "index.html" ]; then
+            echo "✅ index.html found"
+          else
+            echo "❌ index.html not found"
+            exit 1
+          fi
+      
+      - name: Display HTML content
+        run: cat index.html
+
+  # Job 2: Run basic checks
+  basic-checks:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Count lines in HTML
+        run: wc -l index.html
+      
+      - name: Success message
+        run: echo "🎉 All checks passed!"
