@@ -1,4 +1,4 @@
-name: Simple CI
+name: Steps CI
 
 on:
   push:
