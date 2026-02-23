@@ -2,7 +2,6 @@ name: Matrix Build Demo
 
 on:
   push:
-  workflow_dispatch:
 jobs:
   matrix-test:
     name: Test on ${{ matrix.os }} with Python ${{ matrix.python }}
