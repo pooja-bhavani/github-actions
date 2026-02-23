@@ -78,9 +78,12 @@ screenshots to be added
 ## Matrix Advanced Strategies
 1. **Include and Exclude** - Use `exclude` to skip a specific combination. (Eg: If you don’t want to run the image in specific os use exclude) and `include` to add specific configurations (Eg: If you want to run new or same version of image in any os you use include).
 
-2. **Fail-Fast** - By default, if one job in a matrix fails, all in-progress jobs are automatically cancelled. Setting `fail-fast: false` disables this default behavior.
+<img width="2920" height="1285" alt="image" src="https://github.com/user-attachments/assets/920bc05a-8fe3-4481-a125-76c30b8ca30d" />
 
-3. Max-parallel - Allows you to control the maximum number of jobs that will run simultaneously. Using matrix job strategy you can define the number here if you write 2 it will execute only 2 jobs. Once this is completed it will start executing the next set of jobs.
+
+3. **Fail-Fast** - By default, if one job in a matrix fails, all in-progress jobs are automatically cancelled. Setting `fail-fast: false` disables this default behavior.
+
+5. Max-parallel - Allows you to control the maximum number of jobs that will run simultaneously. Using matrix job strategy you can define the number here if you write 2 it will execute only 2 jobs. Once this is completed it will start executing the next set of jobs.
 
 ---
 ## Context
