@@ -76,11 +76,12 @@ Workflows can be triggered by various events:
 
 ###   **Schedule Events:** Used for executing workflows on a specific schedule using cron jobs.
 
+<img width="2773" height="618" alt="image" src="https://github.com/user-attachments/assets/604b7ba1-a435-451a-a88b-64acd0d1e44d" />
 
 
  ###  **Workflow Dispatch Events:** Used when you want to manually trigger and run a workflow.
 
-
+<img width="1081" height="155" alt="image" src="https://github.com/user-attachments/assets/eda11013-2e0b-445e-88d1-2d0f1be40825" />
 
 ---
 
