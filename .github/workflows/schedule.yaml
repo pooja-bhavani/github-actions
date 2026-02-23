@@ -2,7 +2,7 @@ name: Scheduled CI
 
 on:
   schedule:
-    - cron: '*/1 * * * *' # Runs every munite    
+    - cron: '*/5 * * * *' # Runs every 5 munites    
 
 jobs:
   build:
