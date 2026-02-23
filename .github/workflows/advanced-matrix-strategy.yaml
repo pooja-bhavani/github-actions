@@ -1,0 +1,38 @@
+name: Matrix Build Demo
+
+on:
+  push:
+  
+jobs:
+  matrix-test:
+    name: Test on ${{ matrix.os }} with Python ${{ matrix.python }}
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        os: [ubuntu-latest, ubuntu-24.04, windows-latest]
+        python: ["3.9", "3.10", "3.11"]
+       
+        exclude:
+          - os: windows-latest
+            python: "3.11"
+        
+        include:
+          - os: ubuntu-24.4
+            python: "3.12"
+            
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Print environment info
+        run: |
+          echo "Running on $RUNNER_OS"
+          python --version        
