@@ -5,7 +5,7 @@ on:
   
 # A workflow contains one or more jobs
 jobs:
-  # Job 1: build HTML
+  # Job 1: build HTML 
   build-html:
     runs-on: ubuntu-latest
     
