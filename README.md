@@ -87,7 +87,8 @@ Used for executing workflows on a specific schedule using cron jobs.
  ###  **Workflow Dispatch Events** 
  Used when you want to manually trigger and run a workflow.
 
-<img width="1081" height="155" alt="image" src="https://github.com/user-attachments/assets/eda11013-2e0b-445e-88d1-2d0f1be40825" />
+<img width="2915" height="1184" alt="image" src="https://github.com/user-attachments/assets/3d263e5f-a36c-4bc4-aba5-12fe3c332e64" />
+<img width="2919" height="619" alt="image" src="https://github.com/user-attachments/assets/ab03103c-abc9-40e5-be6f-caa539932494" />
 
 ---
 
