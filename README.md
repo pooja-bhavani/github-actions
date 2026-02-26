@@ -108,7 +108,7 @@ If you want to build or test app on multiple OS you can define multiple jobs for
 
 ---
 
-## Matrix Advanced Strategies
+## Advanced Matrix Strategies
 1. **Fail-Fast** - By default, if one job in a matrix fails, all in-progress jobs are automatically cancelled. Setting `fail-fast: false` disables this default behavior.
 
 2. Max-parallel - Allows you to control the maximum number of jobs that will run simultaneously. Using matrix job strategy you can define the number here if you write 2 it will execute only 2 jobs. Once this is completed it will start executing the next set of jobs.
