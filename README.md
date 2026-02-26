@@ -105,8 +105,6 @@ If you want to build or test app on multiple OS you can define multiple jobs for
 
 **Solution:** To avoid repetitive lines or steps we make use of Matrix Strategy. This allows you to use variables in a single job definition which automatically creates multiple jobs that run in parallel. This is highly useful for testing an application across multiple operating systems simultaneously without writing repetitive code.
 
-screenshots to be added
-
 ---
 
 ## Matrix Advanced Strategies
