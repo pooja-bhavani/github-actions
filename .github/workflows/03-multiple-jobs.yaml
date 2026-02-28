@@ -1,4 +1,4 @@
-name: Steps CI
+name: Multiple-Jobs
 
 on:
   push:
