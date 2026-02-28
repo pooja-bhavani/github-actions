@@ -1,0 +1,27 @@
+name: Steps CI
+
+on:
+  push:
+
+jobs:
+  build-html:       # job 1
+    name: Build HTML Job
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: List files
+        run: ls -la
+
+  test-html:        # job 2
+    name: Test HTML Job
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: validate code
+        uses: actions/checkout@v4
+
+      - name: Validate HTML files
+        run: echo "Running HTML validation..."
