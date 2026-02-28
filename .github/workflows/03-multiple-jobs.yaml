@@ -15,7 +15,7 @@ jobs:
       - name: List files
         run: ls -la
 
-  test-html:        # job 2
+  test-html:       # job 2
     name: Test HTML Job
     runs-on: ubuntu-latest
 
